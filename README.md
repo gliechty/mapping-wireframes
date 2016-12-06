@@ -23,12 +23,32 @@ These pre-fab components are great to cherry-pick and place in your project as y
 The nav bar alone would probably take us an hour to make - but this navbar came directly from Bootstrap's component list:
 [http://getbootstrap.com/components/#navbar](http://getbootstrap.com/components/#navbar)
 
+## The Copy/Paste Ban has been lifted
 
+*It is always a bad idea to copy/paste code.* It increases the risk of human error and cargo cult programming. HOWEVER, the code we're writing now is a prototype - a rough draft. As long as you're making a draft, not a finished project, you can copy/paste components to try them out and rapidly mock up your app design.
 
+Think about the pages you might need for your app, and start making them via copying your files, or chucks of your code, into new files.
 
+## Lorem Ipsum 
 
-- Show students various CSS components in the framework of your choice
-- Introduce hosting via CDN for fast prototyping
-- Identify how to roughly cut/paste examples and build an HTML playground
-- Help students build a grid boilerplate (before letting them work on their own)
-- Direct students to create basic HTML/CSS prototypes (lorem-ipsum style) of their project 2 wireframes (students work on their own)
+We've created some files and now, but they're looking a bit empty. It would be nice to have some text in here, but you're probably a long way away from having content. That's where Lorem Ipsum comes in: [http://www.lipsum.com/](http://www.lipsum.com/)
+
+Lorem ipsum is the industry standard for dummy text, and has been used since the 1500s for typesetting. If that's too oldschool for you, you can also try some more modern flavors:
+
+- [Hipster Ipsum](https://hipsum.co/)
+- [Bacon Ipsum](https://baconipsum.com/)
+- [Fillerati (out-of-copyright classic texts)](http://www.fillerati.com/)
+- [Samuel L. Ipsum](http://slipsum.com/)
+
+Many times, you'll be creating a project before your client has finished their approved copy - Lorem Ipsum is a great way to fill in the space in the meantime - just remember to check your Ipsum for profanity before putting it on a client's site.
+
+## Hosting your prototype
+
+The easiest way to show your prototype to us, a client, or other members of your team is gh-pages. Since you're already using github to source-control your project, it might be wise to simply do your work on the gh-pages branch so that each push deploys your project to a live site.
+
+If you've forgotten how to create new branches or deploy to gh-pages, [check out our previous lesson on it](https://github.com/den-wdi-2/git-branching-and-pages).
+
+## Start prototyping!
+
+You now have the tools to start wireframing - including the sample project in this repo. Our goal now is to wireframe your Project 2 app. Feel free to use that as a starting point, or start from scratch.
+
